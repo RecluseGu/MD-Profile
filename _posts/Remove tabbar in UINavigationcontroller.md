@@ -28,7 +28,11 @@ tags:
 
 ## Method Two
 上面提到了Method One的缺点，所以得有新的方法来解决上述问题：
->解决方案：1.创建自定义UINavigationController--GUNavigationController；2.重写UINavigationController的push方法；3.如果最先push进来的控制器不是栈底栈底控制器，设置控制器的hidesBottomBarWhenPushed属性的值为YES。
+>解决方案：
+1. 创建自定义UINavigationController--GUNavigationController；
+2. 重写UINavigationController的push方法；
+3. 如果最先push进来的控制器不是栈底栈底控制器，设置控制器的hidesBottomBarWhenPushed属性的值为YES。
+
 代码如下：
 {% codeblock lang:objc %}
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
