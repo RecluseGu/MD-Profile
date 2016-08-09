@@ -8,11 +8,13 @@ tags:
 - Xcode
 - Error
 ---
+【别管那些纷纷扰扰，别让不开心的事，停下了脚步，就怕你不说，就怕你不做，别让遗憾继续，一切都还来的及--思念是一种病】
+
+<!-- more -->
 例如如下代码：没法通过编译，编译器会报错：**Expression is not assignable**
 {% codeblock lang:objc %}
 self.view.frame.size.height = 100;
 {% endcodeblock %}
-<!-- more -->
 
 这句代码中self.view.frame是Objective-C(以下简称OC)语法，是用来读取view属性的frame属性，在OC中使用点语法访问属性是一种语法糖，所以self.view.frame会被转化成：
 {% codeblock lang:objc %}

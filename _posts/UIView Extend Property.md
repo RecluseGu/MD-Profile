@@ -8,11 +8,13 @@ tags:
 - UIView
 - Category
 ---
+【将来的你 会感谢现在拼命的自己】
+<!-- more -->
+
 在定义一个view组件的位置时，大家都知道怎么设置该view组件的位置，是的我们通过view.frame来设置，代码如下：
 {% codeblock lang:objc %}
 [view.frame = CGRectMake(x,y,width,height)];
 {% endcodeblock %}
-<!-- more -->
 
 当我们单独对view.frame.size进行赋值时，需要创建临时变量tempSize：
 e{% codeblock lang:objc %}

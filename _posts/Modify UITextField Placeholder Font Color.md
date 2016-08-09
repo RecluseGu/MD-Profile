@@ -14,22 +14,22 @@ tags:
 <!-- more -->
 
 修改UITextField的占位符文字颜色主要有三个方法：
-### 1. 使用attributedPlaceholder属性
+### 使用attributedPlaceholder属性
 {% codeblock lang:objc %}
 @property(nullable, nonatomic,copy)   NSAttributedString     *attributedPlaceholder NS_AVAILABLE_IOS(6_0); // default is nil
 {% endcodeblock %}
 
-### 2.重写drawPlaceholderInRect方法
+### 重写drawPlaceholderInRect方法
 {% codeblock lang:objc %}
 - (void)drawPlaceholderInRect:(CGRect)rect;
 {% endcodeblock %}
 
-### 3.修改UITextField内部placeholderLaber的颜色
+### 修改UITextField内部placeholderLaber的颜色
 {% codeblock lang:objc %}
 [textField setValue:[UIColor grayColor] forKeyPath@"placeholderLaber.textColor"];
 {% endcodeblock %}
 
-**具体实现：**
+**具体实现**
 >给定场景，如在注册登录中，要修改手机号和密码TextField的placeholder的文字颜色。
 
 **效果对比**
@@ -108,4 +108,4 @@ tags:
 @end
 {% endcodeblock %}
 
->第三种方法比较简单，建议可以将此封装起来：扩展UITextField，新建category，添加placeholderColor属性，使用KVC重写set和get方法。有需要的同学可以[邮箱](mailto:reclusegu1218@gmail.com)联系。
+>第三种方法比较简单，建议可以将此封装起来：扩展UITextField，新建category，添加placeholderColor属性，使用KVC重写set和get方法。有需要的同学可以[邮箱](mailto:reclusegu1218@gmail.com)联系。监听UITextField事件，可查看下一篇[文章]()。

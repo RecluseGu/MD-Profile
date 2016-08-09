@@ -10,9 +10,9 @@ tags:
 - 颜色
 ---
 >在Xcode6之前，创建一个新工程是Xcode会在Supporting files文件夹下自动创建一个“工程名-Prefix.pch”文件，pch文件的内容能被项目中其他所有文件访问，它是一个预编译文件。
-![](http://ww1.sinaimg.cn/large/b36cd9dbgw1f5zf70wfo8j20cu08emxf.jpg)
 
 <!-- more -->
+![](http://ww1.sinaimg.cn/large/b36cd9dbgw1f5zf70wfo8j20cu08emxf.jpg)
 
 ## PCH文件的作用
 > 1. 存放整个项目中使用的上得宏定义，即全局的宏

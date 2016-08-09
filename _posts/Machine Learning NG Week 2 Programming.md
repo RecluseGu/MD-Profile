@@ -7,10 +7,10 @@ tags:
 - Machine Learning
 - Program Code
 ---
-![](http://ww2.sinaimg.cn/large/b36cd9dbgw1f6509l58z1j20zk0m8156.jpg)
-<!-- more -->
-
 > 在Coursera上学习了两周的Machine Learning课程，第二周开始学习使用Octave，以下是Week 2的编程作业代码：
+
+<!-- more -->
+![](http://ww2.sinaimg.cn/large/b36cd9dbgw1f6509l58z1j20zk0m8156.jpg)
 
 1. **warmUpExercise.m**
 

@@ -11,9 +11,9 @@ tags:
 ---
 >有的时候，使用iOS自带的控件不符合我们的开发要求时，我们一般自定义控件来满足需求。在此处，我们通过创建一个GUSearchBar类，继承自UITextField类来自定义搜索框。
 
+<!-- more -->
 ![I Believe you will come back!](http://ww3.sinaimg.cn/large/b36cd9dbgw1f5c2a6qcpdj20zc0neahy.jpg)
 
-<!-- more -->
 ## 创建GUSearchBar
 >代码如下：GUSearchBar.h
 

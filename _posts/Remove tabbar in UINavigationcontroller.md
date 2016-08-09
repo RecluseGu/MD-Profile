@@ -9,8 +9,9 @@ tags:
 - TabBar
 ---
 忙碌的学期期末，都没有时间学习了。做作业，做作业，做作业。美洲杯，美洲杯，美洲杯。
-![阿根廷 VS 智利 2:1](http://ww3.sinaimg.cn/large/0060lm7Tgw1f4mj0jkh13j31ay0g8ahe.jpg)
+
 <!-- more -->
+![阿根廷 VS 智利 2:1](http://ww3.sinaimg.cn/large/0060lm7Tgw1f4mj0jkh13j31ay0g8ahe.jpg)
 
 ## Method One
 通常一个UITabBarController需要管理多个UINavigationController，当从每一个UINavigationController中push到某一个ViewController，如果不做处理，会在push到的Controller中显示TabBar，第一个做法是设置ViewController隐藏TabBar，假设在tableView中选中某一行跳转到另一个控制器，代码如下：
